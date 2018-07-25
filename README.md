@@ -6,6 +6,7 @@ corresponding video: 		        https://www.youtube.com/watch?v=N1KQz5MYElA
 source code mainly lies in: 	  /xyi_v2_ws/src/xyi2_brain/src
 
 others:
+        
         xyi2_bot                robot launch file
         
         xyi2_env                robot environment support (simulation, drawn map) launch file
