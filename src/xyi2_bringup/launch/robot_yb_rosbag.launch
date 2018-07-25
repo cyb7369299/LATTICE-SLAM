@@ -1,0 +1,22 @@
+<launch>
+
+  <!-- default path is ~/.ros/ , how to change??? -->
+  <node 
+    pkg="rosbag" name="record_bot" type="record" output="screen"
+    args="-O bag1 /clock /rosout /rosout_agg /RobotPort_Scan /RobotPort_Odom ">
+  
+  </node> 
+  
+
+  <!-- 
+  <node 
+    pkg="rosbag" name="record_bot" type="play" output="screen"
+    args="/home/cyb7369299/My_Workspace/xyi_v2_ws/src/xyi2_bringup/bagfiles/simu_bagdata.bag">
+  
+  </node>
+  -->
+  
+  
+
+
+</launch>
